@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  bot:
+    build: .
+    environment:
+      BOT_TOKEN: <5962225082:AAEXpaOlYM1xJbal1EYp4F4_C8Any9Rccbo>
+      NEWS_API_KEY: <2c3c2198c93640868409c2b898458a30>
+    restart: always
